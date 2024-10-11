@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 15vh;
+}
+header section {
+  width: 30%;
+  height: 15vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+header section button {
+  color: white;
+  border: none;
+  font-size: 32px;
+  padding: 10px;
+  border-radius: 10px;
+}
+header section .botaoVermelho {
+  background-color: red;
+}
+header section .boatoPreto {
+  background-color: transparent;
+  border: solid 1px white;
+}
+
+.tituloEpisodios {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 30vh;
+}
+.tituloEpisodios h2 {
+  font-size: 64px;
+}
+
+main {
+  background-color: black;
+  color: white;
+  height: 125vh;
+}
+
+.episodios {
+  height: 70vh;
+  display: flex;
+  justify-content: space-around;
+}
+.episodios section {
+  width: 30%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.episodios section h3 {
+  font-size: 36px;
+}
+.episodios section p {
+  font-size: 24px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  display: flex;
+  text-justify: left;
+  justify-content: space-evenly;
+}/*# sourceMappingURL=style.css.map */
