@@ -87,3 +87,58 @@ footer {
   text-justify: left;
   justify-content: space-evenly;
 }
+
+
+@media (max-width: 768px) {
+  header {
+    height: 20vh;
+    flex-direction: column;
+
+    section {
+      height: 20vh;
+      flex-direction: column;
+
+      button {
+        height: 20vh;
+        flex-direction: column;
+      }
+    }
+  }
+}
+
+.tituloEpisodios {
+  height: 20vh;
+  flex-direction: column;
+
+  h2 {
+    font-size: 22px;
+  }
+}
+
+main {
+  height: 20vh;
+  flex-direction: column;
+}
+
+.episodios {
+  height: 20vh;
+  flex-direction: column;
+
+  section {
+    height: 20vh;
+    flex-direction: column;
+
+    h3 {
+      font-size: 18px;
+
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+footer {
+  height: 20vh;
+  flex-direction: column;
+}
